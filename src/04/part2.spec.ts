@@ -39,6 +39,6 @@ it('day4 should find the valid ones', () => {
     expect(solve(validExamples)).to.equal(4);
 });
 
-it('day 4 part2', () => {
+it('day4 part2', () => {
     expect(solve(readLines(4))).to.equal(167);
 });
